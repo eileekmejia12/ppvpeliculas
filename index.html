@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="./css/framework7.bundle.min.css">
+    
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+
+        <div class="panel panel-left panel-reveal panel-resizable" data-swipe="true">
+            <div class="">
+                <div class="block-title block-title-medium">Hola Eilee 🙋‍♂️</div>
+                <div class="list links-list">
+                    <ul>
+                      <li>
+                        <a href="/home/" class="link panel-close">
+                            Inicio
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="link">
+                            Promociones
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="link panel-close">
+                            Categorías
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="link">
+                            Mis Películas
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="link panel-close">
+                            Perfil
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="link">
+                            Salir
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+  
+            <!-- Top Navbar -->
+            <div class="navbar">
+              <div class="navbar-bg"></div>
+              <div class="navbar-inner">
+                 
+                <div class="left">
+                    <a href="#" class="panel-open">
+                        <i class="fa fa-bars" style="font-size:25px; margin-left: 1rem"></i>
+                    </a>
+                </div>
+                <div class="title">MisPelis</div>
+              </div>
+            </div>
+  
+            <!-- Bottom Toolbar -->
+            <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+              <div class="toolbar-inner">
+                <a href="/home/" class="tab-link tab-link-active">
+                    <i class="	fa fa-map"></i>
+                    <span class="tabbar-label">Explorar</span>
+                </a>
+                <a href="#tab1" class="tab-link ">
+                    <i class="fa fa-book"></i>
+                    <span class="tabbar-label">Reservar</span>
+                </a>
+                <a href="#tab1" class="tab-link">
+                    <i class="fa fa-heart"></i>
+                    <span class="tabbar-label">Favoritos</span>
+                </a>
+                <a href="#tab1" class="tab-link">
+                    <i class="fa fa-user"></i>
+                    <span class="tabbar-label">Perfil</span>
+                </a>
+              </div>
+            </div>
+  
+            <!-- Scrollable page content -->
+            <div class="page-content">
+
+                
+                <div class="block-title block-title-medium">Recientes</div>
+                
+                <div data-space-between="10" data-slides-per-view="2" class="swiper-container swiper-init demo-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="/peli/">
+                                <div class="card demo-card-header-pic">
+                                    <div style="background-image:url(https://media.rawg.io/media/games/13b/13b029c381614a8e557f442cff488bb3.jpg)" class="card-header align-items-flex-end">Tiny Tinas Wonderlands</div>
+                                    <div class="card-content card-content-padding">
+                                        <span class="badge color-green">Suspenso</span>
+                                        <span class="badge color-red">Misterio</span>
+                                      <p class="date">Calificación: 3/5</p>
+                                      <p>L. 320.00</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="/peli2/">
+                                <div class="card demo-card-header-pic">
+                                    <div style="background-image:url(https://media.rawg.io/media/games/a86/a86a22df94275a824089238919c826b6.jpg)" class="card-header align-items-flex-end">El mundo de kirby</div>
+                                    <div class="card-content card-content-padding">
+                                        <span class="badge color-yellow">Comedia</span>
+                                        <span class="badge color-purple">Divertido</span>
+                                      <p class="date">Calificación: 2/5</p>
+                                      <p>L. 280.00</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card demo-card-header-pic">
+                                <div style="background-image:url(https://media.rawg.io/media/games/280/280679a52190a6eceb8363eac7e196f9.jpg)" class="card-header align-items-flex-end">Legos Wars</div>
+                                <div class="card-content card-content-padding">
+                                    <span class="badge color-orange">Acción</span>
+                                    <span class="badge color-purple">Divertido</span>
+                                  <p class="date">Calificación: 5/5</p>
+                                 
+                                  <p>L. 320.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card demo-card-header-pic">
+                                <div style="background-image:url(https://media.rawg.io/media/games/067/067df4bb30f618958ffc58ad8e3b0a38.jpg)" class="card-header align-items-flex-end">Antes de tí</div>
+                                <div class="card-content card-content-padding">
+                                  <p class="date">Drama</p>
+                                  <p>L. 320.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block-title block-title-medium">Populares</div>
+                <div class="list media-list">
+                    <ul>
+                        <li>
+                        <a href="#" class="item-link item-content">
+                            <div class="item-media"><img src="https://cdn.framework7.io/placeholder/people-160x160-1.jpg" width="80"/></div>
+                            <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">Punto focal</div>
+                                <div class="item-after">L. 320.00</div>
+                            </div>
+                            <span class="badge color-green">Suspenso</span>
+                                    <span class="badge color-red">Misterio</span>
+                            <div class="item-text">Calificación: 3/5</div>
+                            </div>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" class="item-link item-content">
+                            <div class="item-media"><img src="https://cdn.framework7.io/placeholder/people-160x160-2.jpg" width="80"/></div>
+                            <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">Don't Stop Me Now</div>
+                                <div class="item-after">L. 400.00</div>
+                            </div>
+                            <span class="badge color-yellow">Comedia</span>
+                                    
+                            <div class="item-text">Calificación: 4/5</div>
+                            </div>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="#" class="item-link item-content">
+                            <div class="item-media"><img src="https://cdn.framework7.io/placeholder/people-160x160-3.jpg" width="80"/></div>
+                            <div class="item-inner">
+                            <div class="item-title-row">
+                                <div class="item-title">Billie Jean on road</div>
+                                <div class="item-after">L. 500.00</div>
+                            </div>
+                            <span class="badge color-green">Drama</span>
+                            <div class="item-text">Calificación: 5/5</div>
+                            </div>
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script src="./js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

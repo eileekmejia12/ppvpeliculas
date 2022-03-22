@@ -1,0 +1,19 @@
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .demo-card-header-pic .card-content-padding .date{
+    color: #8e8e93;
+  }
+
+  .box-Img{
+    text-align: center;
+  }
+
+.img{
+    width: 60%;
+    height: 200px;
+}
+
